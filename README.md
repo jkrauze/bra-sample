@@ -24,8 +24,8 @@ Tests will be run:
 
 and
 
-1. On HashMap based repository (`/items` in `SampleController`)
-1. On Reactive MongoDB repository (`/mongo-items` in `SampleMongoController`)
+1. On HashMap based repository (`/items` in [`SampleController`](src/main/java/io/github/jkrauze/sample/bra/SampleController.java))
+1. On Reactive MongoDB repository (`/mongo-items` in [`SampleMongoController`](src/main/java/io/github/jkrauze/sample/bra/SampleMongoController.java))
 
 Before each test run docker containers will be recreated.
 
