@@ -1,0 +1,543 @@
+Creating 100 items...
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /mongo-items
+Document Length:        30 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.121 seconds
+Complete requests:      100
+Failed requests:        90
+   (Connect: 0, Receive: 0, Length: 90, Exceptions: 0)
+Total transferred:      13490 bytes
+Total body sent:        17000
+HTML transferred:       3090 bytes
+Requests per second:    89.21 [#/sec] (mean)
+Time per request:       11.210 [ms] (mean)
+Time per request:       11.210 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.75 [Kbytes/sec] received
+                        14.81 kb/s sent
+                        26.56 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     5   11  38.2      7     389
+Waiting:        5   10  38.0      7     387
+Total:          5   11  38.2      7     389
+
+Percentage of the requests served within a certain time (ms)
+  50%      7
+  66%      8
+  75%      8
+  80%      8
+  90%      9
+  95%     10
+  98%     11
+  99%    389
+ 100%    389 (longest request)
+Warm up!
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /mongo-items
+Document Length:        3203 bytes
+
+Concurrency Level:      10
+Time taken for tests:   38.564 seconds
+Complete requests:      50000
+Failed requests:        0
+Total transferred:      165750000 bytes
+HTML transferred:       160150000 bytes
+Requests per second:    1296.54 [#/sec] (mean)
+Time per request:       7.713 [ms] (mean)
+Time per request:       0.771 [ms] (mean, across all concurrent requests)
+Transfer rate:          4197.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       4
+Processing:     1    8   6.5      6     190
+Waiting:        1    7   6.3      5     189
+Total:          1    8   6.5      6     190
+
+Percentage of the requests served within a certain time (ms)
+  50%      6
+  66%      7
+  75%      9
+  80%     10
+  90%     15
+  95%     20
+  98%     27
+  99%     32
+ 100%    190 (longest request)
+
+-----------------------------------------
+START!
+-----------------------------------------
+
+
+-----------------------------------------
+Getting single item 10000 times...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /mongo-items/54
+Document Length:        31 bytes
+
+Concurrency Level:      1
+Time taken for tests:   12.056 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      1350000 bytes
+HTML transferred:       310000 bytes
+Requests per second:    829.47 [#/sec] (mean)
+Time per request:       1.206 [ms] (mean)
+Time per request:       1.206 [ms] (mean, across all concurrent requests)
+Transfer rate:          109.35 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     1    1   0.4      1      20
+Waiting:        1    1   0.4      1      20
+Total:          1    1   0.4      1      20
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      1
+  90%      1
+  95%      2
+  98%      2
+  99%      2
+ 100%     20 (longest request)
+
+-----------------------------------------
+Getting single item 10000 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        214 bytes
+
+Concurrency Level:      1
+Time taken for tests:   15.192 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      3260000 bytes
+Total body sent:        1850000
+HTML transferred:       2140000 bytes
+Requests per second:    658.23 [#/sec] (mean)
+Time per request:       1.519 [ms] (mean)
+Time per request:       1.519 [ms] (mean, across all concurrent requests)
+Transfer rate:          209.55 [Kbytes/sec] received
+                        118.92 kb/s sent
+                        328.47 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     1    1   0.6      1      50
+Waiting:        1    1   0.6      1      50
+Total:          1    1   0.7      1      50
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      2
+  90%      2
+  95%      2
+  98%      3
+  99%      3
+ 100%     50 (longest request)
+
+-----------------------------------------
+Getting 10 items 1000 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        2033 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.766 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      2145000 bytes
+Total body sent:        564000
+HTML transferred:       2033000 bytes
+Requests per second:    361.58 [#/sec] (mean)
+Time per request:       2.766 [ms] (mean)
+Time per request:       2.766 [ms] (mean, across all concurrent requests)
+Transfer rate:          757.41 [Kbytes/sec] received
+                        199.15 kb/s sent
+                        956.56 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     2    3   0.6      2      11
+Waiting:        2    3   0.6      2      11
+Total:          2    3   0.6      3      11
+WARNING: The median and mean for the processing time are not within a normal deviation
+        These results are probably not that reliable.
+WARNING: The median and mean for the waiting time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      3
+  80%      3
+  90%      3
+  95%      4
+  98%      5
+  99%      6
+ 100%     11 (longest request)
+
+-----------------------------------------
+Getting 100 items 100 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        20214 bytes
+
+Concurrency Level:      1
+Time taken for tests:   1.571 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      2032600 bytes
+Total body sent:        434500
+HTML transferred:       2021400 bytes
+Requests per second:    63.64 [#/sec] (mean)
+Time per request:       15.712 [ms] (mean)
+Time per request:       15.712 [ms] (mean, across all concurrent requests)
+Transfer rate:          1263.32 [Kbytes/sec] received
+                        270.05 kb/s sent
+                        1533.37 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:    14   16   1.7     15      24
+Waiting:       14   15   1.7     15      24
+Total:         14   16   1.7     15      24
+
+Percentage of the requests served within a certain time (ms)
+  50%     15
+  66%     15
+  75%     16
+  80%     16
+  90%     18
+  95%     20
+  98%     24
+  99%     24
+ 100%     24 (longest request)
+
+-----------------------------------------
+Getting single item 100000 times...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /mongo-items/54
+Document Length:        31 bytes
+
+Concurrency Level:      1
+Time taken for tests:   100.900 seconds
+Complete requests:      100000
+Failed requests:        0
+Total transferred:      13500000 bytes
+HTML transferred:       3100000 bytes
+Requests per second:    991.08 [#/sec] (mean)
+Time per request:       1.009 [ms] (mean)
+Time per request:       1.009 [ms] (mean, across all concurrent requests)
+Transfer rate:          130.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       1
+Processing:     1    1   0.1      1       5
+Waiting:        1    1   0.1      1       5
+Total:          1    1   0.1      1       5
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      1
+  90%      1
+  95%      1
+  98%      1
+  99%      1
+ 100%      5 (longest request)
+
+-----------------------------------------
+Getting single item 100000 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        214 bytes
+
+Concurrency Level:      1
+Time taken for tests:   125.835 seconds
+Complete requests:      100000
+Failed requests:        0
+Total transferred:      32600000 bytes
+Total body sent:        18500000
+HTML transferred:       21400000 bytes
+Requests per second:    794.69 [#/sec] (mean)
+Time per request:       1.258 [ms] (mean)
+Time per request:       1.258 [ms] (mean, across all concurrent requests)
+Transfer rate:          253.00 [Kbytes/sec] received
+                        143.57 kb/s sent
+                        396.57 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     1    1   0.1      1       5
+Waiting:        1    1   0.1      1       5
+Total:          1    1   0.1      1       5
+
+Percentage of the requests served within a certain time (ms)
+  50%      1
+  66%      1
+  75%      1
+  80%      1
+  90%      1
+  95%      1
+  98%      1
+  99%      1
+ 100%      5 (longest request)
+
+-----------------------------------------
+Getting 10 items 10000 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        2033 bytes
+
+Concurrency Level:      1
+Time taken for tests:   25.682 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      21450000 bytes
+Total body sent:        5640000
+HTML transferred:       20330000 bytes
+Requests per second:    389.37 [#/sec] (mean)
+Time per request:       2.568 [ms] (mean)
+Time per request:       2.568 [ms] (mean, across all concurrent requests)
+Transfer rate:          815.63 [Kbytes/sec] received
+                        214.46 kb/s sent
+                        1030.08 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     2    2   0.3      2       7
+Waiting:        2    2   0.3      2       7
+Total:          2    2   0.3      2       7
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      3
+  80%      3
+  90%      3
+  95%      3
+  98%      3
+  99%      4
+ 100%      7 (longest request)
+
+-----------------------------------------
+Getting 100 items 1000 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        20214 bytes
+
+Concurrency Level:      1
+Time taken for tests:   15.231 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      20326000 bytes
+Total body sent:        4345000
+HTML transferred:       20214000 bytes
+Requests per second:    65.66 [#/sec] (mean)
+Time per request:       15.231 [ms] (mean)
+Time per request:       15.231 [ms] (mean, across all concurrent requests)
+Transfer rate:          1303.27 [Kbytes/sec] received
+                        278.59 kb/s sent
+                        1581.86 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:    14   15   0.8     15      23
+Waiting:       14   15   0.8     15      23
+Total:         14   15   0.8     15      23
+
+Percentage of the requests served within a certain time (ms)
+  50%     15
+  66%     15
+  75%     15
+  80%     15
+  90%     16
+  95%     17
+  98%     18
+  99%     18
+ 100%     23 (longest request)
+
+-----------------------------------------
+Getting 1000 items 100 times using bra...
+-----------------------------------------
+
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /bra-v0
+Document Length:        202015 bytes
+
+Concurrency Level:      1
+Time taken for tests:   14.134 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      20212700 bytes
+Total body sent:        4214600
+HTML transferred:       20201500 bytes
+Requests per second:    7.08 [#/sec] (mean)
+Time per request:       141.342 [ms] (mean)
+Time per request:       141.342 [ms] (mean, across all concurrent requests)
+Transfer rate:          1396.54 [Kbytes/sec] received
+                        291.20 kb/s sent
+                        1687.74 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:   135  141  10.7    139     224
+Waiting:      134  141  10.6    138     223
+Total:        135  141  10.7    139     224
+
+Percentage of the requests served within a certain time (ms)
+  50%    139
+  66%    140
+  75%    141
+  80%    142
+  90%    147
+  95%    154
+  98%    175
+  99%    224
+ 100%    224 (longest request)
