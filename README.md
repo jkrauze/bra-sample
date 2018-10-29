@@ -4,12 +4,12 @@ Having 100 items stored.
 
 Tests:
 
-1. Getting 10000 objects
+* Getting 10000 objects
   1. 10000x `GET /items/54`
   1. 10000x `POST /bra-v0` requesting `GET /items/54`
   1. 1000x `POST /bra-v0` requesting 10x `GET /items/54`
   1. 100x `POST /bra-v0` requesting 100x `GET /items/54`
-1. Getting 100000 objects
+* Getting 100000 objects
   1. 100000x `GET /items/54`
   1. 100000x `POST /bra-v0` requesting `GET /items/54`
   1. 10000x `POST /bra-v0` requesting 10x `GET /items/54`
