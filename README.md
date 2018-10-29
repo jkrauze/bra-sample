@@ -1,4 +1,4 @@
-# Batch Request API Benchmark
+# [Batch Request API](https://github.com/jkrauze/bra) Benchmark
 
 Having 100 items stored.
 
