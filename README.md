@@ -35,7 +35,7 @@ To recreate tests execute `run.sh` bash script.
 
 ## Results
 
-* [Without concurrency on HashMap repository](test_1_map)
+* [Without concurrency on HashMap repository](tests_1_map)
   * 10k elements
     1. 10000x ORIG: Done in 7.320s
     1. 10000x1 BRA: Done in 12.255s
@@ -47,7 +47,7 @@ To recreate tests execute `run.sh` bash script.
     1. 10000x10 BRA: Done in 13.962s
     1. 1000x100 BRA: Done in 6.063s
     1. 100x1000 BRA: Done in **5.067s**
-* [With 10 concurrent threads on HashMap repository](test_10_map)
+* [With 10 concurrent threads on HashMap repository](tests_10_map)
   * 10k elements
     1. 10000x ORIG: Done in 3.841s
     1. 10000x1 BRA: Done in 8.347s
@@ -59,7 +59,7 @@ To recreate tests execute `run.sh` bash script.
     1. 10000x10 BRA: Done in 5.928s
     1. 1000x100 BRA: Done in 3.018s
     1. 100x1000 BRA: Done in **2.617s**
-* [With 100 concurrent threads on HashMap repository](test_100_map)
+* [With 100 concurrent threads on HashMap repository](tests_100_map)
   * 10k elements
     1. 10000x ORIG: Done in 3.018s
     1. 10000x1 BRA: Done in 6.854s
@@ -73,7 +73,7 @@ To recreate tests execute `run.sh` bash script.
     1. 100x1000 BRA: Done in **2.496s**
 
 
-* [Without concurrency on MongoDB repository](test_1_mongo)
+* [Without concurrency on MongoDB repository](tests_1_mongo)
   * 10k elements
     1. 10000x ORIG: Done in 12.056s
     1. 10000x1 BRA: Done in 15.192s
@@ -85,7 +85,7 @@ To recreate tests execute `run.sh` bash script.
     1. 10000x10 BRA: Done in 25.682s
     1. 1000x100 BRA: Done in 15.231s
     1. 100x1000 BRA: Done in **14.134s**
-* [With 10 concurrent threads on MongoDB repository](test_10_mongo)
+* [With 10 concurrent threads on MongoDB repository](tests_10_mongo)
   * 10k elements
     1. 10000x ORIG: Done in 5.763s
     1. 10000x1 BRA: Done in 8.559s
@@ -97,7 +97,7 @@ To recreate tests execute `run.sh` bash script.
     1. 10000x10 BRA: Done in 15.834s
     1. 1000x100 BRA: Done in **10.889s**
     1. 100x1000 BRA: Done in 11.151s
-* [With 100 concurrent threads on MongoDB repository](test_100_mongo)
+* [With 100 concurrent threads on MongoDB repository](tests_100_mongo)
   * 10k elements
     1. 10000x ORIG: Done in 5.470s
     1. 10000x1 BRA: Done in 8.950s
